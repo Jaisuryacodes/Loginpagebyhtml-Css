@@ -1,0 +1,57 @@
+body {
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+}
+.LDiv {
+  width: 400px;
+  height: 350px;
+  margin-top: 10%;
+  background-color: transparent;
+  border-radius: 28px;
+  border: 1px solid wheat;
+}
+input {
+  caret-color: wheat;
+  
+  margin-top: 50px;
+  margin-left: 0%;
+  background-color: transparent;
+  border: none;
+  width: 300px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  outline: none;
+}
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(180, 13, 13);
+}
+input:focus {
+  margin-left: 0%;
+  background-color: transparent;
+
+  width: 300px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.LDiv:hover {
+  box-shadow: 1px 2px 5px 2px rgb(142, 207, 2);
+}
+input:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  caret-color: wheat;
+  margin-left: 0%;
+  background-color: transparent;
+
+  width: 300px;
+}
+h3 {
+  color: aliceblue;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+hr {
+  width: 300px;
+}
